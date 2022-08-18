@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+#container {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  min-width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #1da086;
+}
+
+#card {
+  position: relative;
+  height: 400px;
+  width: 523px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 5px;
+  background-color: #ffffff;
+  overflow: hidden;
+
+  box-shadow: 10px 10px 50px 7px rgba(29, 29, 29, 0.161);
+}
+
+#header {
+  width: 85%;
+  margin: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+#headerTitle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#headerTxt {
+  font-size: 21px;
+  font-weight: 700;
+}
+#userIcon {
+  padding: 7px;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+}
+
+#subHeader {
+  align-self: flex-start;
+  color: #a8aaac;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.21px;
+}
+
+#purchaseList {
+  margin-top: 16px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.itemName {
+  color: #555555;
+  font-size: 14px;
+}
+.itemPrice {
+  color: #000023;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.04px;
+}
+.total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.totalTxt {
+  color: #5f5955;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.totalPrice {
+  color: #000023;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.04px;
+}
+
+#bicycleImg {
+  position: absolute;
+  bottom: -130px;
+  max-width: 500px;
+}
